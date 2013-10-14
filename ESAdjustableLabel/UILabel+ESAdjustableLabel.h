@@ -2,8 +2,8 @@
 //  UILabel+ESAdjustableLabel.h
 //  ===========================
 //  This category adds a few helper methods to adjust
-//  a UIlabel to fit its text. 
-//  
+//  a UIlabel to fit its text.
+//
 //  You can specify the minimum and maximum label size,
 //  minimum font size, or none at all.
 //                      ----
@@ -19,17 +19,20 @@
 
 @interface UILabel (ESAdjustableLabel)
 
+- (void)adjustLabelToMaximumWidth:(CGFloat)width
+                    minimumHeight:(CGFloat)height;
+
 // General method. If minSize is set to CGSizeZero then
 // it is ignored
 // =====================================================
-- (void)adjustLabelToMaximumSize:(CGSize)maxSize 
-                     minimumSize:(CGSize)minSize 
+- (void)adjustLabelToMaximumSize:(CGSize)maxSize
+                     minimumSize:(CGSize)minSize
                  minimumFontSize:(int)minFontSize;
 
-// Adjust label using only the maximum size and the 
+// Adjust label using only the maximum size and the
 // font size as constraints
 // =====================================================
-- (void)adjustLabelToMaximumSize:(CGSize)maxSize 
+- (void)adjustLabelToMaximumSize:(CGSize)maxSize
                  minimumFontSize:(int)minFontSize;
 
 // Adjust the size of the label using only the font
@@ -38,7 +41,7 @@
 // =====================================================
 - (void)adjustLabelSizeWithMinimumFontSize:(int)minFontSize;
 
-// Adjust label without any constraints (the maximum 
+// Adjust label without any constraints (the maximum
 // size will be calculated automatically based on the
 // screen size)
 // =====================================================

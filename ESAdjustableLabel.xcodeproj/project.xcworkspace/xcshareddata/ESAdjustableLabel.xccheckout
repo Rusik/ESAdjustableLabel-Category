@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>08E16443-C6FD-4D30-BFB8-18767962063D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ESAdjustableLabel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2313E2DC-D603-44AE-B4C6-D65838F1D95E</key>
+		<string>ssh://github.com/Rusik/ESAdjustableLabel-Category.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ESAdjustableLabel.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2313E2DC-D603-44AE-B4C6-D65838F1D95E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Rusik/ESAdjustableLabel-Category.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2313E2DC-D603-44AE-B4C6-D65838F1D95E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2313E2DC-D603-44AE-B4C6-D65838F1D95E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ESAdjustableLabel-Category</string>
+		</dict>
+	</array>
+</dict>
+</plist>
